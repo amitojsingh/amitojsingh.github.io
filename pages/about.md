@@ -9,6 +9,9 @@ weight: 3
 
 **{{ site.author.name }}** is an Full stack Web Engineer and UI/UX enthusiast who loves programming, designing, speaking, traveling and meditating. He believe in innovation and creating new things that makes the difference. 
 
+<div class="row">
+{% include about/summary.html title="Summary of Qualification" source=site.data.summaryQualification %}
+</div>
 <div class= "row">
 {% include about/education.html title="Education" source="site.data.education" %}
 </div>

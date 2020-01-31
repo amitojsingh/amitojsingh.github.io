@@ -2,15 +2,19 @@
 <div class= "col-lg">
     <h2>Education History</h2>
 {% for edu in site.data.education %}
-<div class="wow animated fadeIn" data-wow-delay=".15s">
-        <div class="card-body">
-            <h5 id="{{ edu.degree }}" class="card-title">
-                {{ edu.degree }}
-            </h5>
-            <p id="{{ edu.course }}-desc" class="card-text">{{ edu.course }}</p>
-            <p id="{{ project_id }}-tools" class="card-text">
-                <span class="badge badge-pill text-primary border border-primary">{{ edu.from }}--{{edu.to}}</span> 
-            </p>
+<div class="wow-education animated fadeIn" data-wow-delay=".15s">
+        <div class="edu card text-dark">
+            <img id="{{ edu.college }}-img" class="card-img-top" src="../assets/images/{{edu_img }}"
+                alt="{{ edu_college }}" />
+            <div class="card-body">
+                <h5 id="{{ edu_degree }}-name" class="card-title">
+                    {{ edu.degree }}
+                </h5>
+                <p id="{{ edu_id }}-desc" class="card-text">{{ edu.college }}</p>
+                <p id="{{ edu_id }}-tools" class="card-text">
+                    <span class="badge badge-pill text-primary border border-primary">{{ edu.from }}-{{ edu.to }}</span>
+                </p>
+            </div>
         </div>
 {% endfor %}
     </div>

@@ -2,7 +2,7 @@
   percentage: 90
   color: danger
 
-- name: JavaScript
+- name: JavaScript/JQuery
   percentage: 80
   color:
 
@@ -14,23 +14,15 @@
   percentage: 80
   color: grey
 
-- name: PHP
+- name: PHP, Wordpress
   percentage: 80
   color: green
 
-- name: C++
+- name: C++, Wt, Qt
   percentage: 70
   color: yellow
 
-- name: Mongo DB
-  percentage: 70
-  color: Blue
-
-- name: Angular 8
-  percentage: 60
-  color: dark blue
-
-- name: node-express
+- name: MEAN
   percentage: 70
   color: Light
 
@@ -39,5 +31,5 @@
   color: Danger
 
 - name: C#/ ASP.Net
-  percentgae: 70
+  percentage: 70
   color: orange

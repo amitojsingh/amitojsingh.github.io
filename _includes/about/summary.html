@@ -1,0 +1,13 @@
+<div class="col-lg">
+    <h2>Summary of Qualification</h2>
+    <ul>
+    {% for point in site.data.summaryQualification %}
+    <div class="wow animated fadeIn" data-wow-delay=".15s">
+
+        
+            <li>{{ point.bullet }}</li>
+        
+        </div>
+        {% endfor %}
+        </ul>
+    </div>
