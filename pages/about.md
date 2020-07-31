@@ -5,9 +5,9 @@ permalink: /about/
 weight: 3
 ---
 
-# **About {{site.author.name}}**
+# **About me**
 
-**{{ site.author.name }}** is an Full stack Web Engineer and UI/UX enthusiast who loves programming, designing, speaking, traveling and meditating. He believe in innovation and creating new things that makes the difference. 
+I am Full stack Web developer and UI/UX enthusiast who loves programming, designing, speaking, traveling and meditating. I believe creating new things that makes the difference. 
 
 <div class="row">
 {% include about/summary.html title="Summary of Qualification" source=site.data.summaryQualification %}
