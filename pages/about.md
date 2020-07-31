@@ -12,9 +12,9 @@ I am Full stack Web developer and UI/UX enthusiast who loves programming, design
 <div class="row">
 {% include about/summary.html title="Summary of Qualification" source=site.data.summaryQualification %}
 </div>
-<div class= "row">
+<!--<div class= "row">
 {% include about/education.html title="Education" source="site.data.education" %}
-</div>
+</div>-->
 
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
